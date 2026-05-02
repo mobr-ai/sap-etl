@@ -79,6 +79,12 @@ sudo apt update
 sudo apt install -y build-essential cmake pkg-config libcurl4-openssl-dev
 ```
 
+Clone sap-etl from git repository
+
+```bash
+git clone git@github.com:mobr-ai/sap-etl.git
+```
+
 ## Build
 
 ```bash
