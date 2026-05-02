@@ -82,7 +82,7 @@ sudo apt install -y build-essential cmake pkg-config libcurl4-openssl-dev
 Clone sap-etl from git repository
 
 ```bash
-git clone git@github.com:mobr-ai/sap-etl.git
+git clone https://github.com/mobr-ai/sap-etl.git
 ```
 
 ## Build
@@ -106,7 +106,9 @@ ctest --test-dir build --output-on-failure
 
 Clone Jetstreamer from:
 
-- `https://github.com/anza-xyz/jetstreamer`
+```bash
+git clone https://github.com/anza-xyz/jetstreamer.git
+```
 
 ### 2. Jetstreamer prerequisites
 
